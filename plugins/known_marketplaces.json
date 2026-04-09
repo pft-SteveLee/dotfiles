@@ -1,0 +1,18 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/home/steve_lee/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-04-09T08:54:41.846Z"
+  },
+  "pulumi-agent-skills": {
+    "source": {
+      "source": "github",
+      "repo": "pulumi/agent-skills"
+    },
+    "installLocation": "/home/steve_lee/.claude/plugins/marketplaces/pulumi-agent-skills",
+    "lastUpdated": "2026-04-08T11:06:25.979Z"
+  }
+}

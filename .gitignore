@@ -1,0 +1,19 @@
+# Sensitive credentials
+.credentials.json
+
+# Session/runtime data
+history.jsonl
+sessions/
+session-env/
+shell-snapshots/
+backups/
+mcp-needs-auth-cache.json
+
+# Plugin cache/data
+cache/
+plugins/cache/
+plugins/data/
+plugins/install-counts-cache.json
+
+# Embedded git repos (managed separately)
+plugins/marketplaces/pulumi-agent-skills/

@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "plugins": {
+    "pulumi-authoring@pulumi-agent-skills": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve_lee/.claude/plugins/cache/pulumi-agent-skills/pulumi-authoring/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-04-08T11:06:44.770Z",
+        "lastUpdated": "2026-04-08T11:06:44.770Z",
+        "gitCommitSha": "b6214ca30c8f211e829c17a51d9b1ce152c5f260"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve_lee/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7",
+        "version": "5.0.7",
+        "installedAt": "2026-04-08T11:07:11.465Z",
+        "lastUpdated": "2026-04-08T11:07:11.465Z",
+        "gitCommitSha": "917e5f53b16b115b70a3a355ed5f4993b9f8b73d"
+      }
+    ],
+    "context7@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve_lee/.claude/plugins/cache/claude-plugins-official/context7/unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-08T11:13:52.413Z",
+        "lastUpdated": "2026-04-08T11:13:52.413Z"
+      }
+    ],
+    "code-simplifier@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve_lee/.claude/plugins/cache/claude-plugins-official/code-simplifier/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-04-08T11:14:10.043Z",
+        "lastUpdated": "2026-04-08T11:14:10.043Z"
+      }
+    ],
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve_lee/.claude/plugins/cache/claude-plugins-official/code-review/unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-08T11:16:33.831Z",
+        "lastUpdated": "2026-04-08T11:16:33.831Z"
+      }
+    ],
+    "commit-commands@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve_lee/.claude/plugins/cache/claude-plugins-official/commit-commands/unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-08T11:17:06.246Z",
+        "lastUpdated": "2026-04-08T11:17:06.246Z"
+      }
+    ],
+    "claude-code-setup@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve_lee/.claude/plugins/cache/claude-plugins-official/claude-code-setup/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-04-08T11:17:21.344Z",
+        "lastUpdated": "2026-04-08T11:17:21.344Z"
+      }
+    ],
+    "claude-md-management@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve_lee/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-04-08T11:17:33.086Z",
+        "lastUpdated": "2026-04-08T11:17:33.086Z"
+      }
+    ]
+  }
+}
