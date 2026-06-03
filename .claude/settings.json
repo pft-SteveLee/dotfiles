@@ -34,10 +34,10 @@
       "Read(~/.gem/credentials)"
     ]
   },
+  "model": "sonnet",
   "statusLine": {
     "type": "command",
-    "command": "~/.claude/scripts/statusline.sh",
-    "padding": 0
+    "command": "bash -c 'cols=$(stty size </dev/tty 2>/dev/null | awk '\"'\"'{print $2}'\"'\"'); export COLUMNS=$(( ${cols:-120} > 4 ? ${cols:-120} - 4 : 1 )); exec ~/.nvm/versions/node/v24.14.1/bin/node ~/.claude/claude-hud-dist/index.js'"
   },
   "enabledPlugins": {
     "pulumi-authoring@pulumi-agent-skills": true,
@@ -47,7 +47,8 @@
     "code-review@claude-plugins-official": true,
     "commit-commands@claude-plugins-official": true,
     "claude-code-setup@claude-plugins-official": true,
-    "claude-md-management@claude-plugins-official": true
+    "claude-md-management@claude-plugins-official": true,
+    "ui-ux-pro-max@ui-ux-pro-max-skill": true
   },
   "extraKnownMarketplaces": {
     "pulumi-agent-skills": {
@@ -55,8 +56,16 @@
         "source": "github",
         "repo": "pulumi/agent-skills"
       }
+    },
+    "ui-ux-pro-max-skill": {
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      }
     }
   },
   "alwaysThinkingEnabled": true,
-  "skipDangerousModePermissionPrompt": true
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark",
+  "skipAutoPermissionPrompt": true
 }
